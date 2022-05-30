@@ -1,0 +1,9 @@
+* pkgs-search
+Searchs void with your current architecture
+I use if for unknown cmd errors in fish
+Add this code to your config.fish
+#+BEGIN_SRC sh
+function fish_command_not_found
+	python ./pkgs-search.py $argv[1]
+end
+#+END_SRC
