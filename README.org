@@ -1,5 +1,6 @@
 * Purpose
-Scripts to optimize working with Void Linux
+Scripts to optimize working with Void Linux.
+I use nix for packaging, because Python dependecy management for scripts is a pain.
 
 * Scripts
 ** pkgs-search
